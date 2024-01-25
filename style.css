@@ -1,0 +1,84 @@
+.light {
+    background: white;
+    color: black;
+    padding: .5rem;
+}
+.dark {
+    background: black;
+    color: white;
+    padding: .5rem;
+}
+#btn {
+    background-color: darkgray;
+    color: black;
+    padding: .5rem;
+    margin-left: 78rem;
+    
+}
+#pic{
+    /* background-image: url('http://placehold.it/300&text=banner1'); */
+    background-position: none;
+    background-size: cover;
+    background-repeat: no-repeat;  
+  }
+  #color {
+    background-color: rgb(236, 181, 181);
+    color: black;
+    padding: 1rem;
+    margin-left: 30rem;
+    
+
+  }
+  #color:hover {
+    color: ;
+    background-color:rgba(255, 0, 0, 0.841);
+  }
+  #change {
+    background-color:rgba(45, 154, 45, 0.445);
+    color: black;
+    padding: 1rem;
+    margin-left: 1rem;
+  }
+  #change:hover {
+    background-color:rgba(0, 128, 0, 0.73);
+  }
+  @media screen and (max-width:500px) {
+    body {
+      background-color: aqua;
+      display: flex;
+      flex-direction: column;
+    }
+    #btn{
+      background-color: darkgray;
+      color: black;
+      padding: 0.3rem;
+      justify-content: center;
+      align-items: center;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      
+    }
+    #color {
+      background-color: rgb(236, 181, 181);
+      color: black;
+      padding: 1rem;
+      margin-right: 1rem;
+      margin-left: 1rem;
+    }
+    #color:hover {
+      color: ;
+      background-color:rgba(255, 0, 0, 0.841);
+    }
+    #change {
+      background-color:rgba(45, 154, 45, 0.445);
+      color: black;
+      padding: 1rem;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      gap: ;
+    }
+    #change:hover {
+      background-color:rgba(0, 128, 0, 0.73);
+    }
+        
+}
